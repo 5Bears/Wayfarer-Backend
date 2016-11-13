@@ -1,0 +1,41 @@
+.userprof{
+  color: black;
+  border-style: ridge;
+  border-color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px; 
+  margin: 50px;
+}
+
+.userprof:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#u1{
+    position: absolute;
+  right: 900px;
+}
+#u2{
+  position: absolute;
+  right: 550px;
+}
+
+
+#u4{
+  position: absolute;
+  right: 550px;
+}
+
+
+#u6{
+  position: absolute;
+  right: 550px;
+
+}
+
+#u8{
+  position: absolute;
+  right: 550px;
+}
