@@ -1,10 +1,15 @@
+body{
+  background: black;
+
+}
+
 .userprof{
   color: black;
   border-style: ridge;
   border-color: white;
   border-radius: 50%;
-  width: 80px;
-  height: 80px; 
+  width: 90px;
+  height: 90px; 
   margin: 50px;
 }
 
@@ -15,27 +20,58 @@
 
 #u1{
     position: absolute;
-  right: 900px;
+    top: 60px;
+  right: 525px;
 }
 #u2{
   position: absolute;
-  right: 550px;
+  top: 250px;
+  right: 675px;
 }
 
-
+#u3{
+  position: absolute;
+  top: 250px;
+  right: 525px;
+}
 #u4{
   position: absolute;
-  right: 550px;
+  top: 250px;
+  right: 375px;
 }
 
+
+#u5{
+  position: absolute;
+  top: 420px;
+  right: 675px;
+}
 
 #u6{
   position: absolute;
-  right: 550px;
-
+  top: 420px;
+  right: 525px;
+}
+#u7{
+  position: absolute;
+  top: 420px;
+  right: 375px;
 }
 
-#u8{
-  position: absolute;
-  right: 550px;
+#heading{
+  color: white;
+  font-family: montserrat;
+  text-align: center;
+}
+
+.pic{
+max-width:100%;
+max-height:100%;
+  border-radius: 50%;
+}
+
+.userprof{
+  color: white;
+  font-family: montserrat;
+  text-align: center;
 }
