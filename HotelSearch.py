@@ -5,9 +5,9 @@ base_url = 'https://api.sandbox.amadeus.com/v1.2/hotels/search-airport?'
 location = FlightLowFareSearch.destination
 check_in = FlightLowFareSearch.arrive_by[:10]
 check_out = FlightLowFareSearch.return_date
-radius = '30'
-max_rate = '60'
-number_of_results = '1'
+radius = '30'											#Replace with variable that takes user input
+max_rate = '60'											#''
+number_of_results = '1'									#''
 
 query_parameters = [('apikey', 't7q7kkgRGApdJFDr40W2pGVVAdk7mt7V'),
 					('location', location),

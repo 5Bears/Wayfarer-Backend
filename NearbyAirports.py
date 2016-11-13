@@ -1,9 +1,10 @@
 from APIFunctions import build_url, get_result
+from Location import get_latitude, get_longitude
 
 base_url = 'https://api.sandbox.amadeus.com/v1.2/airports/nearest-relevant?'
 
-latitude = 37.7749
-longitude = -122.4194
+latitude = 37.7749				#Replace with function call get_latitude
+longitude = -122.4194			#Replace with function call get_longitude
 
 query_parameters = [	('apikey', 't7q7kkgRGApdJFDr40W2pGVVAdk7mt7V'),
 						('latitude', latitude),

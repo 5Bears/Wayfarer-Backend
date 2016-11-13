@@ -4,18 +4,18 @@ import NearbyAirports
 
 base_url = "https://api.sandbox.amadeus.com/v1.2/flights/low-fare-search?"
 origins = nearby_airports(NearbyAirports.airports)
-destination = 'LAX'
-departure_date = '2016-11-25'
-return_date = '2016-12-1'
-arrive_by = '2016-11-25T16:00'
-return_by = '2016-12-01T08:00'
-adults = '9'
-children = '0'
-infants = '0'
-nonstop = 'false'
-max_price_per_adult = 300
+destination = 'LAX'														#Replace with variable that takes user input
+departure_date = '2016-11-25'											#''	
+return_date = '2016-12-1'												#''
+arrive_by = '2016-11-25T16:00'											#''	
+return_by = '2016-12-01T08:00'											#''
+adults = '9'															#''
+children = '0'															#''
+infants = '0'															#''
+nonstop = 'false'														#''		
+max_price_per_adult = 300												#''	
 max_price = str(max_price_per_adult*(int(adults) + int(children)))
-number_of_results = '1'
+number_of_results = '1'													#''	
 
 results = []
 
